@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
 *{
     margin:0;
     padding:0;
@@ -8,6 +9,7 @@
 main{
     max-width:1920px;
     width:100%;
+    height:100vh;
 }
 
 .container{
@@ -15,7 +17,7 @@ main{
 }
 
 .containerLogin{
-    width:50%;
+    width:45%;
     height:100vh;
     display:flex;
     flex-direction: column;
@@ -24,80 +26,138 @@ main{
 
 .logo{
     width:14vw;
-    margin-top:12vh;
+    margin-top:8vh;
 }
 
 h1{
-    margin-top:12vh;
-    font-size:15px;
+    margin-top:15vh;
+    font-size:17px;
+    margin-bottom:1vh;
 }
 
 .formLogin{
+    margin-top:1vh;
     height:18vh;
     display:flex;
     flex-direction:column;
-    justify-content: space-evenly;
 }
 
-.username{
+.username, .password{
     width:20vw;
-    height:6vh;
-}
-
-.password{
-    width:20vw;
-    height:6vh;
+    height:7.5vh;
+    margin-bottom:1vh;
+    background-color: #E8E6E6;
+    font-weight: bold;
+    font-size:12px;
+    border:none;
+    border-radius:4px;
+    padding-left:2px;
 }
 
 .socialMedias{
-    width:20vw;
-    height:10vh;
+    width:22.5vw;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-top:2vh;
 }
 
 .facebook{
     width:5vw;
+    height:5vh;
     display:flex;
     justify-content:center;
     align-items: center;
     background-color: #2051FF;
+    border:none;
+    border-radius:5px;
 }
 
 .logo-facebook{
-    width:2vw;
-    height:4vh;
+    width:1.4vw;
+    height:3vh;
 }
 
 .gmail{
     width:5vw;
+    height:5vh;
     display:flex;
     justify-content:center;
     align-items: center;
     background-color: #8A0000;
+    border:none;
+    border-radius:5px;
 }
 
 .logo-gmail{
-    width:2vw;
-    height:4vh;
+    width:1.4vw;
+    height:3vh;
 }
 
 .apple{
     width:5vw;
+    height:5vh;
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    border-radius:5px;
 }
 
 .logo-apple{
-    border:solid;
+    width:1.4vw;
+    height:3vh;
+}
+
+.checkSpace{
+    display:flex;
+    margin-left:-12.5vw;
+    margin-top:3vh;
+}
+
+.inputCheck{
+    background-color: #A6A6A6;
+}
+
+.check-label{
+    margin-left:0.4vw;
+    font-size:10px;
+    font-weight: bold;
+}
+
+.containerStart{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:12vh;
+    height:14vh;
+}
+
+.boxArrow{
+    width:3vw;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF002E;
+    border-radius:5px;
+    border:none;
+    margin-bottom:2vh;
+}
+
+.arrowRight{
     width:2vw;
     height:4vh;
 }
 
+h3, a{
+    font-size:10px;
+    color:#A6A6A6;
+}
+
 .majorImage{
     width:100%;
-    height:95%;
+    height:99.3vh;
+    border:none;
 }
