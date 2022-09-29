@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    max-width:1920px;
+    width:100%;
+}
+
+.container{
+    display:flex;
+}
+
+.containerLogin{
+    width:50%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width:14vw;
+    margin-top:12vh;
+}
+
+h1{
+    margin-top:12vh;
+    font-size:15px;
+}
+
+.formLogin{
+    height:18vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.username{
+    width:20vw;
+    height:6vh;
+}
+
+.password{
+    width:20vw;
+    height:6vh;
+}
+
+.socialMedias{
+    width:20vw;
+    height:10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facebook{
+    width:5vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #2051FF;
+}
+
+.logo-facebook{
+    width:2vw;
+    height:4vh;
+}
+
+.gmail{
+    width:5vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #8A0000;
+}
+
+.logo-gmail{
+    width:2vw;
+    height:4vh;
+}
+
+.apple{
+    width:5vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logo-apple{
+    border:solid;
+    width:2vw;
+    height:4vh;
+}
+
+.majorImage{
+    width:100%;
+    height:95%;
+}
