@@ -140,10 +140,23 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #FF002E;
     border-radius:5px;
     border:none;
     margin-bottom:2vh;
+    background-color: #FF002E;
+    opacity:0.5;
+}
+
+.boxArrow--Online{
+    width:3vw;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    border:none;
+    margin-bottom:2vh;
+    background-color: #FF002E;
 }
 
 .arrowRight{
